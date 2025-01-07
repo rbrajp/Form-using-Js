@@ -1,0 +1,81 @@
+#username{
+  width: 100%;
+  max-width: 200px; /* Limit the width */
+  padding: 12px 15px; /* Inner spacing */
+  font-size: 15px; /* Font size */
+  font-family: 'Arial', sans-serif; /* Font family */
+  border: 2px solid #ccc; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  outline: none; /* Remove default outline */
+ /* background-color: #a38080; /* Light gray background */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+  
+}
+
+#email{
+    width: 100%;
+    max-width: 200px; /* Limit the width */
+    padding: 12px 15px; /* Inner spacing */
+    font-size: 15px; /* Font size */
+    font-family: 'Arial', sans-serif; /* Font family */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    outline: none; /* Remove default outline */
+    /*background-color: #a38080;  Light gray background */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+#password{
+    width: 100%;
+    max-width: 200px; /* Limit the width */
+    padding: 12px 15px; /* Inner spacing */
+    font-size: 15px; /* Font size */
+    font-family: 'Arial', sans-serif; /* Font family */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    outline: maroon; /* Remove default outline */
+    /*background-color: #a38080; /* Light gray background */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    
+}
+
+#submit{
+    width: 20%;
+    max-width: 200px; /* Limit the width */
+    padding: 12px 15px; /* Inner spacing */
+    font-size: 15px; /* Font size */
+    font-family: 'Arial', sans-serif; /* Font family */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    outline: none; /* Remove default outline */
+    /*background-color: #a38080; /* Light gray background */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+    text-emphasis-color: white;
+}
+
+#username:hover {
+    border-color: #007BFF; /* Blue border on hover */
+    background-color: hsla(0, 0%, 100%, 0.192); /* White background */
+    box-shadow: 4px 4px 10px rgba(0, 123, 255, 0.2); /* Stronger shadow */
+  }
+
+  #email:hover {
+    border-color: #007BFF; /* Blue border on hover */
+    background-color: hsla(0, 0%, 100%, 0.192); /* White background */
+    box-shadow: 4px 4px 10px rgba(0, 123, 255, 0.2); /* Stronger shadow */
+  }
+
+  #password:hover {
+    border-color: #007BFF; /* Blue border on hover */
+    background-color: hsla(0, 0%, 100%, 0.192); /* White background */
+    box-shadow: 4px 4px 10px rgba(0, 123, 255, 0.2); /* Stronger shadow */
+  }
+
+  #submit:hover {
+    border-color: #007BFF; /* Blue border on hover */
+    background-color: hsla(0, 0%, 100%, 0.192); /* White background */
+    box-shadow: 4px 4px 10px rgba(0, 123, 255, 0.2); /* Stronger shadow */
+  }
