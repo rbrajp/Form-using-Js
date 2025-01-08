@@ -1,6 +1,7 @@
 let form =document.getElementById('form');
 let border=document.getElementById('border');
 
+
 function changeColor() {
   const box = document.getElementById('submit');
   // Change background and text color
@@ -56,4 +57,5 @@ form.addEventListener('click',(event) => {
     
     `;
 
+   
 })
