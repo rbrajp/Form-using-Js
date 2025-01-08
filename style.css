@@ -10,6 +10,9 @@
  /* background-color: #a38080; /* Light gray background */
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: all 0.3s ease; /* Smooth transition */
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 10%;
   
 }
 
@@ -25,6 +28,9 @@
     /*background-color: #a38080;  Light gray background */
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: all 0.3s ease; /* Smooth transition */
+    text-align: center;
+    margin-left: 35%;
+    
 }
 
 #password{
@@ -38,6 +44,8 @@
     outline: maroon; /* Remove default outline */
     /*background-color: #a38080; /* Light gray background */
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    margin-left: 35%;
     
 }
 
@@ -54,12 +62,15 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: all 0.3s ease; /* Smooth transition */
     text-emphasis-color: white;
+    text-align: center;
+    margin-left: 36.5%;
 }
 
 #username:hover {
     border-color: #007BFF; /* Blue border on hover */
     background-color: hsla(0, 0%, 100%, 0.192); /* White background */
     box-shadow: 4px 4px 10px rgba(0, 123, 255, 0.2); /* Stronger shadow */
+   
   }
 
   #email:hover {
@@ -78,4 +89,11 @@
     border-color: #007BFF; /* Blue border on hover */
     background-color: hsla(0, 0%, 100%, 0.192); /* White background */
     box-shadow: 4px 4px 10px rgba(0, 123, 255, 0.2); /* Stronger shadow */
+    cursor: pointer;
+    
+  }
+
+  #border{
+    text-align: center;
+    margin-left: -10%;
   }

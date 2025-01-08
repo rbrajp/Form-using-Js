@@ -1,6 +1,14 @@
 let form =document.getElementById('form');
 let border=document.getElementById('border');
 
+function changeColor() {
+  const box = document.getElementById('submit');
+  // Change background and text color
+  box.style.backgroundColor = 'pink';
+  box.style.color = 'white';
+  box.textContent = 'submitted';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const storedUsername = localStorage.getItem('username');
     const storedEmail = localStorage.getItem('email');
